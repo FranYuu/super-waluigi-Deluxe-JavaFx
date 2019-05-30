@@ -1,0 +1,35 @@
+.root{
+    -fx-background-image: url("./img/menu.png");
+    -fx-background-size: stretch;
+}
+
+#textMenu{
+    -fx-fill: yellow;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 40px;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+.button{
+    -fx-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(yellow, #540674);
+    -fx-effect: dropshadow(three-pass-box, rgba(0 ,0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-pref-width: 300px;
+    -fx-pref-height: 60px;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#540674, yellow);
+}
+
+.scroll-pane > .viewport{
+    -fx-background-color: #540674;
+    -fx-background-size: stretch;
+}
+
+#level{
+    background-color: red;
+}

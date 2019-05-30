@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane id="GridPane" prefHeight="500" minHeight="500" prefWidth="720" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LevelsListController">
+    <rowConstraints>
+        <RowConstraints/>
+        <RowConstraints percentHeight="100"/>
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="60"/>
+    </columnConstraints>
+    <Text text="Choisir un niveau" GridPane.halignment="CENTER" fx:id="textMenu" />
+    <ScrollPane GridPane.halignment="CENTER" GridPane.rowIndex="1">
+        <VBox>
+            <Button text="Niveau 1" onAction="#level"/>
+        </VBox>
+    </ScrollPane>
+    <stylesheets>
+        <URL value="@LevelsList.css" />
+    </stylesheets>
+</GridPane>
